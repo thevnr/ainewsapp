@@ -88,10 +88,7 @@ const App = () => {
         <NewsCards articles={newsArticles} activeArticle={activeArticle} />
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
-            <button onclick="window.location.href='/page2'">Continue</button>
-                <br />
-                <br />
-
+           
             Created by{" "}
             <a
               className={classes.link}
