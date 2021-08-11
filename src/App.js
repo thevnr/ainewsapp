@@ -85,12 +85,22 @@ const App = () => {
             </div>
           ) : null}
         </div>
+
+
+<NewsCards articles={newsArticles} activeArticle={activeArticle} />
+        <div className={classes.footer}>
+          <Typography >
+         <a href="https://react.school" target="_blank">
+           <Button> Link Button </Button>
+             </a>
+                        </Typography>
+                 
+ </div>
+
+
         <NewsCards articles={newsArticles} activeArticle={activeArticle} />
         <div className={classes.footer}>
-          
-          
-
-          <Typography variant="body1" component="h2">
+     <Typography variant="body1" component="h2">
            
             Created by{" "}
             <a
