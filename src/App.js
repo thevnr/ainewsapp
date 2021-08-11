@@ -87,6 +87,17 @@ const App = () => {
         </div>
         <NewsCards articles={newsArticles} activeArticle={activeArticle} />
         <div className={classes.footer}>
+          
+          <Typography variant="body1" component="h2">
+
+          <a href="https://newsaiapp.tiiny.site/" target="_blank">
+
+             <Button> Get Live News</Button>
+
+             </a>
+
+           </Typography>
+          
           <Typography variant="body1" component="h2">
            
             Created by{" "}
