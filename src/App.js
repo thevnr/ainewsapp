@@ -102,12 +102,12 @@ const App = () => {
         <div className={classes.footer}>
      <Typography variant="body1" component="h2">
            
-            Created by{" "}
+            GET{" "}
             <a
               className={classes.link}
-              href="https://www.instagram.com/vishnuraj.pr/"
+              href="https://newsaiapp.tiiny.site/"
             >
-            VishnuRaj
+            LIVE MALAYALAM NEWS
             </a>
                 
            </Typography>
