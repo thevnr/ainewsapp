@@ -88,7 +88,19 @@ const App = () => {
         <NewsCards articles={newsArticles} activeArticle={activeArticle} />
         <div className={classes.footer}>
           
-          
+          <div class="openbutton">
+
+  <a href="#Footersite">
+
+    <p style="color: white;font-size: 17px;">
+
+      Contact us
+
+    </p>
+
+  </a>
+
+</div>
           
           <Typography variant="body1" component="h2">
            
